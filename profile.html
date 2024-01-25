@@ -1,0 +1,301 @@
+# profile
+<!DOCTYPE html>
+<html>
+<head>
+          <meta charset='utf-8'>
+          <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+          <title>profile</title>
+          <meta name='viewport' content='width=device-width, initial-scale=1'>
+          <style>
+ .background{
+    background:linear-gradient(35deg,rgba(133, 59, 172,0.4),rgba(228, 103, 184,0.2));
+    background-size: cover;
+ }
+.mypic {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width:265px;
+    height:260px;
+    background: #e485be;
+    position:absolute;
+    top:150px;
+    left:150px;
+    box-shadow:5px 5px 10px  gray;
+    background: -webkit-linear-gradient(
+    to right,
+    #853bac,
+    #e467b8
+    );
+    background: linear-gradient(
+    to right,
+    #853bac,
+    #e467b8
+    );
+    animation: mypic 10s infinite;
+   }
+   
+  .pic{
+ width:195px;
+ height:250px;
+ position: relative;
+ top:-5px;
+ left:20px;
+ transition: linear 0.8s;
+}
+.lastword{
+    animation:word 1s infinite;
+    font:20px;
+    background-color: #853bac;
+    width:30px;
+}
+.infofont {
+          font-size:20px;
+          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font:bold;
+          position:relative;
+          left:20px;
+          top:-5px;
+          padding-bottom:0%;
+}
+.infofont2{
+          font-size:20px;
+          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font:bold;
+          position:relative;
+          left:20px;
+          top:-15px;
+}
+.link{
+          position:absolute;
+          bottom:50px;
+          left:20px;
+          font-size:12px;
+          padding-left:20px;
+}
+a{
+          text-decoration:none;
+          padding-bottom:20px;
+          color: #e467b8;
+          padding-left:20px;
+}
+.box{
+          width:750px;
+          height:450px;
+          background-color:rgba(225, 225, 225,0.2);
+          border:1px solid rgba(225, 225, 225,0.2 );
+          border-radius:20px;
+          position:absolute;
+          top:90px;
+          left:600px;
+          box-shadow:2px 5px 3px 3px rgba(255, 149, 209,0.5);
+          transition:box-shadow ease-in 0.5s;
+
+
+}
+.box:hover{
+    box-shadow:2px 10px 10px 10px rgba(255, 149, 209,0.5);
+}
+.about{
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:50px 3px ;
+    text-align: center;
+    color:#853bac;
+    
+}
+.box2{
+ width:150px;
+ height:16px;
+ background-color:#e485be;
+ border-radius:10px;
+}
+.skill{
+    background-color:#853bac;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    padding:1px;
+    padding-bottom:2px;
+    border-radius:15px;
+    height:13px;
+    display: block;
+   
+}
+.python{
+    animation:python 12s infinite;
+      
+}
+.js{
+    animation:js 12s infinite;
+}
+.font{
+    font-size:15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:absolute;
+    bottom:150px;
+    right:200px;
+    display:inline-block;
+}
+.fontjs{
+    font-size:15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:absolute;
+    bottom:-50px;
+    right:5px;
+    display:block;
+}
+.fontds{
+    font-size:15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:absolute;
+    bottom:50px;
+    right:300px;
+    display:block;
+}
+.fontc{
+    font-size:15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:absolute;
+    bottom:0px;
+    right:300px;
+    display:block;
+}
+.ds{
+    animation:ds 12s infinite;
+    width:130px;
+}
+.c{
+    animation:c 12s infinite;
+}
+.gif{
+ width: 50px;
+ height:50px;
+ position:absolute;
+ right:50px;
+ bottom:20px;
+}
+
+@keyframes word {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes mypic {
+    25%{border-radius:71% 29% 70% 30% / 55% 39% 61% 45%; }
+    50%{border-radius: 29% 71% 31% 69% / 80% 75% 25% 20% ;}
+    75%{border-radius: 76% 24% 81% 19% / 25% 75% 25% 75% ;}
+    90%{border-radius: 26% 74% 55% 45% / 35% 57% 43% 65% ;}
+}
+@keyframes js {
+    0% {width:0px;}
+    100% {width:90px}
+}
+@keyframes python {
+    0%{width:0px;}
+    100%{width:130px;}
+}
+@keyframes ds {
+    0%{width:0px;}
+    100%{width:130px;}
+}
+@keyframes c {
+    0%{width:0px;}
+    100%{width:125px;}
+}
+.phone{
+    display:none;
+}
+.down{
+    position:absolute;
+    bottom:80px;
+    right:80px;
+    font-size:10px;
+
+}
+@media only screen and (max-width:800px){
+    .phone{
+      display: contents;
+        font-size:20px;
+        color:burlywood;   
+        text-align: center;
+}
+    .mypic{
+        display:none;
+    }
+    .infofont{
+        display:none;
+    }
+    .box{
+        display:none;
+    }
+    .link{
+        display:none;
+    }
+    .gif{
+        display:none;
+    }
+    .cl{
+        display:none;
+    }
+    .down{
+        display:none;
+    }
+    .background{
+    background:linear-gradient(100deg,rgba(133, 59, 172,0.4),rgba(228, 103, 184,0.2))
+    }
+
+}
+
+
+</style>
+</head>
+<body class="background">
+    <p class="phone">PLS view through your desktop for better experiences</p>
+    <div class="mypic">
+          <img src="https://drive.google.com/uc?export=download&id=1ln3oL49JE-XhY4dDPH2Ox5q13Akc1lwu"  alt="pic" class="pic"/>   
+          <p class="infofont">J.Mahendran <br></p><p class="infofont2">
+          B.TECH || CSE(AI&ML)<br>
+          </p>
+          </div>
+    </div>
+          <div class="box">
+          <p class="about">Myself, I’m a junior developer. Have knowledge of web development and machine learning training. Worked on around 200+ personal projects on web dev and 100+ personal projects in Python, and it’s package-related with data structure knowledge, worked on three college professional body clubs and done related projects for clubs, and have good knowledge of commutation …know computer language:- C, JS, Python, HTML, CSS, python-package. Can work on any condition of programming and with a programmer…<span class="lastword">!</span></p>
+          <p style="font-size:13px;font-weight:bold;padding-left:7px; color: #e467b8;">Education:-SRM Institute of Science and Technology</p>
+          <p style="font-size:13px;font-weight:bold;padding-left:7px; color: #e467b8;">Graduating year:- 2025</p>  
+        </div>
+          <div class="link">
+                    <span><a href="https://www.linkedin.com/in/j-mahendran-693a91254">linkedin</a></span>
+                    <span><a href="https://leetcode.com/mahendranj927/">Leetcode</a></span>
+                    <span><a href="https://github.com/mj6671">github</a></span>
+                    <span><a href="www.kaggle.com/mahi6671">Kaggle</a></span>
+                    <span><a href="https://www.hackerrank.com/mahendranj927">Hackerrank</a></span>
+          </div>
+        </div>
+        <p class="down">download my resume here:-</p>
+        <div class="gif"><a href="https://drive.google.com/uc?export=download&id=1LQoLn4tkOBEDiC85F7NgwlGcFW8b0Vs_" download><img src="https://drive.google.com/uc?export=download&id=1rgo7j-4H2fHznEenh6NehwhzhkrOlXfJ" alt="ver" class="gif"></a></div>
+        <div class="cl">
+        <div class="font"> python:-
+          <div class="box2">
+            <div class="skill python">85%</div>
+          </div>
+          <div class="fontjs">JS:-
+            <div class="box2">
+                <div class="skill js">60%</div>
+          </div>
+          <div class="fontds">Data structure:-
+            <div class="box2">
+                <div class="skill ds">90%</div>
+            </div>
+          </div>
+          <div class="fontc">C:-
+            <div class="box2">
+                <div class="skill c">
+                 90%
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
